@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weather_api_link" translatable="false">http://api.openweathermap.org/data/2.5/weather?q=%s&amp;units=metric&amp;APPID=53b21cac9c41f253113a1bd719860a38</string>
+    <string name="weather_api_link_image" translatable="false">http://openweathermap.org/img/w/%s.png</string>
+    <string name="privacy_policy_url" translatable="false">https://runassistant.000webhostapp.com/privacy_policy.html</string>
+
+</resources>

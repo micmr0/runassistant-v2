@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="precisionArray">
+        <item>Słaba dokładność</item>
+        <item>Optymalna dokładność (zalecane)</item>
+        <item>Wysoka dokładność</item>
+    </string-array>
+    <string-array name="precisionValues">
+        <item>8000L</item>
+        <item>5000L</item>
+        <item>4000L</item>
+    </string-array>
+</resources>

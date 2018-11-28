@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:key="@string/weight_preference"
+        android:title="@string/settings_weight"
+        android:summary="@string/settings_weight_info"
+        android:dialogTitle="@string/settings_weight"
+        android:dialogMessage="@string/settings_weight_info"
+        android:defaultValue="0"
+        android:inputType="number" />
+
+    <ListPreference
+        android:title="@string/settings_location_accuracy"
+        android:summary="@string/settings_location_accuracy_info"
+        android:key="@string/settings_location_precision"
+        android:defaultValue="5000L"
+        android:entries="@array/precisionArray"
+        android:entryValues="@array/precisionValues" />
+
+
+</PreferenceScreen>

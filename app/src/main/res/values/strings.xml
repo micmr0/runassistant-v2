@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">RunAssistant</string>
+    <string name="title_activity_main">RunAssistant</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="title_activity_training">Trening</string>
+    <string name="local_service_label">Bieganie</string>
+    <string name="local_service_started">Zbieranie informacji o biegu</string>
+    <string name="action_delete_training">Usun trening</string>
+    <string name="title_activity_training_summary">Podsumowanie treningu</string>
+    <string name="action_delete_plan">Usuń plan</string>
+    <string name="title_activity_warm_up">Rozgrzewka</string>
+    <string name="title_activity_Settings">Ustawienia</string>
+    <string name="menu_start">Bieg</string>
+    <string name="openDrawer">Drawer otwarty</string>
+    <string name="closeDrawer">Drawer zamkniety</string>
+    <string name="menu_history">Historia</string>
+    <string name="menu_plans">Plany</string>
+    <string name="menu_achievments">Osiągi</string>
+    <string name="menu_appinfo">O aplikacji</string>
+    <string name="history_info">Tutaj pojawią się twoje treningi.</string>
+    <string name="plans_info">Tutaj pojawią się twoje plany treningowe.</string>
+
+    <string name="start_training">Zacznij trening</string>
+
+    <string name="appInfo1">Aplikacja umożliwia rejestrowanie treningów i korzystanie z przykładowych planów treningowych.</string>
+    <string name="appInfo2">Plany treningowe opracowane na podstawie książki Jeffa Gallowaya \"Bieganie Metoda Gallowaya\".</string>
+
+    <string name="settings_name">Imię</string>
+    <string name="settings_weight">Waga</string>
+    <string name="settings_location_accuracy">Dokładność lokalizacji</string>
+    <string name="settings_location_accuracy_info">Wybierz z jaką dokładnością aplikacja ma określać lokalizację. Im większa dokładność, tym większe zużycie baterii.</string>
+    <string name="settings_weight_info">Podaj swoją wagę w kilogramach, by precyzyjne obliczać kalorie podczas biegu.</string>
+    <string name="settings_name_info">Podaj swoje imię:</string>
+
+    <string name="main_welcome">Witaj</string>
+
+    <string name="training_time">Czas</string>
+    <string name="training_speed">Prędkość</string>
+    <string name="training_distance">Dystans</string>
+    <string name="training_calories">Kalorie</string>
+    <string name="training_map">Mapa</string>
+    <string name="training_laps">Międzyczasy</string>
+
+    <string name="training_summary_time">Czas</string>
+    <string name="training_summary_distance">Dystans</string>
+    <string name="training_summary_average_speed">Prędkość śr.</string>
+    <string name="training_summary_calories">Spalone kalorie</string>
+    <string name="training_summary_altitude_min">Wysokość min.</string>
+    <string name="training_summary_altitude_max">Wysokość max.</string>
+    <string name="training_summary_speed_max">Prędkość max.</string>
+    <string name="training_summary_laps">Międzyczasy:</string>
+
+
+    <string name="main_active_training">Aktywny trening:</string>
+    <string name="training_standard">Standardowy</string>
+
+    <string name="app_version">Wersja: </string>
+    <string name="new_training">Nowy trening</string>
+    <string name="training_table">Tabela:</string>
+    <string name="training_end_question">Czy chcesz przerwać trening?</string>
+    <string name="training_end">Wyjście</string>
+    <string name="training_end_cancel">Anuluj</string>
+
+    <string name="training_summary_title">Całkowite osiągi</string>
+    <string name="training_end_yes">Tak</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_map_time_default_value">00:00:00</string>
+    <string name="fragment_map_speed_default_value">0.00</string>
+    <string name="fragment_map_distance_default_value">0.00</string>
+    <string name="fragment_map_calories_default_value">0</string>
+    <string name="fragment_map_active_training">Standardowy</string>
+    <string name="fragment_map_current_activity">Bieg</string>
+    <string name="fragment_map_location_permission_info">Do poprawnego działania aplikacji niezbędy jest dostęp do lokalizacji.</string>
+    <string name="ok">OK</string>
+    <string name="activity_main_need_network_info">Do poprawnego działania aplikacji nezbędne jest połączenie z internetem.</string>
+    <string name="no_maps">Brak wymaganego pakietu Google Play Services do poprawnego działania aplikacji.</string>
+    <string name="notification_text">Trwa aktywny trening</string>
+    <string name="fragment_map_speed_sufix">km/h</string>
+    <string name="fragment_map_distance_sufix_text_view">km</string>
+    <string name="app_kotlin_powered">Powered by</string>
+    <string name="activity_running">Bieg</string>
+    <string name="activity_cycling">Jazda na rowerze</string>
+    <string name="choose_activity">Wybierz aktywność:</string>
+    <string name="stop_training">Na pewno chcesz zakończyć trening?</string>
+    <string name="fragment_map_stop_training_dialog">Czy na pewno chesz zakończyć trening?</string>
+    <string name="no">Nie</string>
+
+    <string name="training_distance_value">%d.%02d km</string>
+    <string name="training_speed_value">%d km/h</string>
+    <string name="unknown_location">Nieznana lokalizacja</string>
+    <string name="training_name_morning">Poranny bieg</string>
+    <string name="training_name_evening">Wieczorny bieg</string>
+    <string name="training_name_night">Nocny bieg</string>
+    <string name="training_name_afternoon">Popołudniowy bieg</string>
+    <string name="title_activity_summary">Podsumowanie treningu</string>
+    <string name="activity_training_summary_max_speed_label">Prędkość maks.</string>
+    <string name="activity_training_summary_min_speed_label">Prędkość min.</string>
+    <string name="activity_training_summary_average_speed_label">Prędkość śr.</string>
+    <string name="activity_training_summary_time_label">Czas</string>
+    <string name="activity_training_summary_distance_label">Dystans</string>
+    <string name="activity_training_summary_calories_label">Kalorie</string>
+    <string name="activity_training_summary_min_altitude_label">Wysokość min.</string>
+    <string name="activity_training_summary_max_altitude_label">Wysokość maks.</string>
+    <string name="activity_training_summary_weather_label">Warunki - %s</string>
+    <string name="activity_training_summary_laps_label">Międzyczasy</string>
+    <string name="activity_training_summary_tempo_label">Tempo</string>
+    <string name="activity_training_summary_number_label">Lp.</string>
+    <string name="activity_training_summary_temperature_prefix">Temp: </string>
+    <string name="activity_training_summary_temperature">%d°C</string>
+    <string name="activity_training_summary_pressure">Ciśnienie: %d hPa</string>
+    <string name="activity_training_summary_wind_speed">Wiatr: %.2f km/h</string>
+    <string name="activity_training_summary_humidity">Wilgotność: %d%%</string>
+    <string name="scattered_clouds">Rozproszone chmury</string>
+    <string name="overcast_clouds">Zachmurzone chmury</string>
+    <string name="broken_clouds">Rozbite chmury</string>
+    <string name="clear_sky">Czyste niebo</string>
+    <string name="light_rain">Lekki deszcz</string>
+    <string name="drizzle">Mżawka</string>
+    <string name="heavy_intensity_rain">Intensywny deszcz</string>
+    <string name="few_clouds">Kilka chmur</string>
+    <string name="exit_toast">Kliknij ponownie, żeby wyjść</string>
+    <string name="fragment_plans_no_plans_info">Dodaj plan treningowy by prowadził Cię podczas wykonywanych treningów aby osiągnąć zamierzony cel.</string>
+    <string name="fragment_plans_choose_training_plans">Wybierz plan treningowy:</string>
+    <string name="how_many_plan_days">%d dni</string>
+    <string name="plan_day_number">%d dzień</string>
+    <string name="goal">Cel: %s</string>
+    <string name="delete_plan_message">Czy chcesz usunąć plan?</string>
+    <string name="delete_plan_title">Usuwanie</string>
+    <string name="set_as_done">Ustaw jako wykonane.</string>
+    <string name="set_training">Ustaw trening</string>
+    <string name="training_date">Wykonano: %s</string>
+    <string name="delete_training_message">Czy chcesz usunąć trening? Dane zostaną utracone.</string>
+    <string name="weight_preference">weight</string>
+    <string name="settings_location_precision">location_precision</string>
+    <string name="settings_weight_text_view">Waga</string>
+    <string name="settings_location_precision_text_view">Częstotliwość lokalizacji</string>
+    <string name="set_weight_title">Podaj wagę w kilogramach:</string>
+    <string name="settings_fragment_low_precission">Mała</string>
+    <string name="settings_fragment_high_precission">Wysoka</string>
+    <string name="settings_fragment_medium_precission">Standardowa (zalecane)</string>
+    <string name="fragment_settings_location_precision_title">Częstotliwość lokalizacji</string>
+    <string name="settings_weight_description_text_view">Podaj swoją wagę, by precyzyjnie określić spalone kalorie podczas treningu.</string>
+    <string name="this_week">W tym tygodniu:</string>
+    <string name="this_month">w tym miesiącu:</string>
+
+    <string name="fragment_history_no_trainings_info">Tutaj pojawią się twoje treningi.</string>
+    <string name="intro_page_1_title">Rejestruj swoje treningi</string>
+    <string name="intro_page_1_description">Podczas treningu rejestrowane będą m.in. czas, prędkość oraz spalone kalorie.</string>
+    <string name="intro_page_2_title">Przeglądaj historię</string>
+    <string name="intro_page_2_description">Twoje treningi będą rejestrowane i dodawane do historii abyś mógł do nich poźniej wrócić.</string>
+    <string name="intro_page_3_title">Dodaj plan treningowy</string>
+    <string name="intro_page_3_description">Do twojej dyspozycji są plany treningowe, które pomogą ukończyć bieg na dany dystans.</string>
+    <string name="intro_page_4_title">Sprawdzaj swoje postępy</string>
+    <string name="intro_page_4_description">Zobacz jaki sumarycznie wypadłeś w obecnym tygodniu czy miesiącu.</string>
+    <string name="fragment_app_info_licenses">Licencje</string>
+    <string name="fragment_app_info_policy_privacy">Polityka prywatności</string>
+    <string name="global_apacheLicense_text" translatable="false">Licensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+</resources>

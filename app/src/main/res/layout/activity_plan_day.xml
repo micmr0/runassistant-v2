@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tytuł"
+                android:id="@+id/plan_day_view_item_title_text_view"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Opis"
+                android:id="@+id/plan_day_view_item_description_text_view"
+                android:layout_marginTop="32dp"
+                android:textSize="16sp"
+                android:textColor="#d27d7d7d"
+                android:layout_below="@+id/plan_day_view_item_title_text_view"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSetTraining"
+                android:background="#29e108"
+                android:onClick="setTraining"
+                android:textColor="#ffffff"
+                android:padding="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="80dp"
+                android:layout_below="@+id/plan_day_view_item_description_text_view"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+        <include
+            layout="@layout/toolbar_main"/>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

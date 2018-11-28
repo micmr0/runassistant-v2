@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragment_app_info"
+                android:paddingTop="80dp"
+                android:paddingBottom="40dp">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fragment_plans_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_plans_no_plans_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/fragment_plans_no_plans_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/training_plans"
+            android:padding="40dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/fragment_plans_no_plans_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_plans_no_plans_info"
+            android:padding="20dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fragment_plans_add_plan_button"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_add"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"/>
+
+</RelativeLayout>
